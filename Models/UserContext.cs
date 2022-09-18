@@ -2,9 +2,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Assignment2_1.Models
 {
-    public class UserDbContext : DbContext
+    public class UserContext : DbContext
     {
-        public UserDbContext (DbContextOptions<UserDbContext> options)
+        public UserContext (DbContextOptions<UserContext> options)
             : base(options)
             {
 
